@@ -22,10 +22,11 @@ public class Main {
 
 		String str = "Hello world";
 		int r = str.lastIndexOf("llok");
-		System.out.println(r);
+		System.out.println(r);//-1
 
 		r = str.length();
-		System.out.println(r);
+		System.out.println(r);//11
+		
 		practice3.display();
 	}
 }
